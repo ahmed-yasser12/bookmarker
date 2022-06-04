@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+    <div class="w-75 mx-auto m-4">
+        <label for="name">websiteName</label>
+        <input type="text" name="BookMakerName" class="form-control mb-2 w-100 "  id="name">
+        <label for="websiteUrl">websiteUrl</label>
+        <input type="text" name="websiteUrl" class="form-control w-100 "  id="websiteUrl">
+        <button class="btn mainBtn btn-primary mt-2">Add</button>
+      </div>
+    
+    
+      <div class="w-75 mx-auto mt-5">
+        <table class=" table w-100  text-center">
+          <thead>
+            <tr>
+            <th>Index</th>
+              <th>Name</th>
+              <th>Visit</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody id="rowData">
+          </tbody>
+        </table>
+      </div>
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
